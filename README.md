@@ -49,10 +49,10 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 
 **Lowest Earning Majors:**
 1. Library Science: $22,000
-2. Counseling Psychology: $23,400
+2. Counselling Psychology: $23,400
 3. Educational Psychology: $25,000
 
-**Earnings Gap:** 5:1 ratio between highest and lowest paying majors
+**Earnings Gap:** 5:1 ratio between the highest and lowest paying majors
 
 #### 📊 Employment Quality Issues
 - **Part-Time Work:** Biology graduates have 39.7% part-time employment (highest among top 10 majors)
@@ -68,7 +68,7 @@ The analysis addresses 12 key research questions to inform strategic recommendat
    - Significant gender imbalances identified, with Psychology 78% female and General Business 43.6% female
 
 3. **Which majors have the highest and lowest median earnings?**
-   - Engineering dominates top earnings; Education and Psychology at the bottom
+   - Engineering dominates top earnings; Education and Psychology are at the bottom
 
 4. **How does the unemployment rate vary across different major categories?**
    - 2x variation from lowest (4.65%) to highest (9.57%) categories
@@ -86,13 +86,13 @@ The analysis addresses 12 key research questions to inform strategic recommendat
    - Highest: Communications & Journalism (12,399); Lowest: Agriculture (824)
 
 9. **How many majors have unemployment above 6%?**
-   - 103 majors (59.9%) - majority of majors fail to beat national average
+   - 103 majors (59.9%) - the majority of majors fail to beat the national average
 
-10. **Which top 10 major has the highest percentage of part-time workers?**
+10. **Which top 10 majors have the highest percentage of part-time workers?**
     - Biology at 39.7% (corrected: using Part_time/Employed ratio)
 
 11. **Which majors have the largest earnings spread?**
-    - Astronomy, Pharmacy, and specialized Engineering fields show highest variability
+    - Astronomy, Pharmacy, and specialized Engineering fields show the highest variability
 
 12. **What are the strategic recommendations for improving outcomes?**
     - See Recommendations section below
@@ -101,13 +101,11 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 
 ### 1. Address Gender Pay Disparity
 - Implement targeted scholarships for women in high-earning fields
-- Advocate for increased compensation in female-dominated professions
 - Create mentorship programs connecting female students with STEM/Business professionals
 - Mandate transparent salary disclosures
 
-### 2. Enhance Career Counseling
-- Develop comprehensive "Total Cost of Ownership" analysis for each major
-- Require labor market analysis courses before major declaration
+### 2. Enhance Career Counselling
+- Require labour market analysis courses before major declaration
 - Create real-time employment outcome dashboards
 - Warn students about high-risk majors
 
@@ -118,33 +116,13 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 - Develop hybrid degree programs
 
 ### 4. Improve Employment Quality
-- Target 75% full-time year-round employment (vs current 63%)
 - Partner with employers for guaranteed placement programs
-- Address part-time work issues in Biology and Psychology
 - Create employer consortiums for problematic majors
-
-### 5. Combat Low-Wage Placement
-- Establish minimum wage thresholds for career services postings
-- Reduce low-wage placement by 50% in Communications & Journalism
-- Create certification programs in high-demand skills
 
 ### 6. Manage Earnings Variability
 - Provide pathway guidance for high-variability fields
 - Develop income-share agreements for high-risk majors
 - Show full earnings distributions, not just medians
-
-## 📁 Project Structure
-
-```
-├── Dataset/
-│   └── Milestone_1_-_Marcus.xlsx          # Main dataset with all analysis sheets
-├── Analysis/
-│   ├── Question_9_Corrected_Analysis.xlsx # Corrected unemployment analysis
-│   └── Question_9_Comparison.xlsx         # Comparison of methodologies
-├── Reports/
-│   └── Executive_Summary.docx             # Comprehensive executive summary
-└── README.md                               # This file
-```
 
 ## 🛠️ Methodology
 
@@ -165,7 +143,6 @@ The dataset contains 172 college majors with the following variables:
 
 ### Tools Used
 - **Microsoft Excel:** Pivot tables, charts, and data visualization
-- **Python/Pandas:** Statistical analysis and data manipulation
 - **Data Visualization:** Bar charts, comparison tables, trend analysis
 
 ## 📊 Key Visualizations
@@ -181,105 +158,3 @@ The project includes comprehensive visualizations for:
 8. Part-time work percentages in top majors
 9. Earnings spread analysis
 10. Category-level unemployment breakdown (corrected)
-
-## 🔧 Data Quality Notes
-
-### Corrections Made
-**Question 9 Methodology Correction:**
-- **Original approach:** Counted ALL majors in each category (172 total)
-- **Corrected approach:** Filtered for majors with unemployment > 6% FIRST, then counted by category (103 total)
-- **Impact:** Reveals that 59.9% of majors fail to achieve below-average unemployment
-
-**Question 10 Calculation Note:**
-- Uses `Part_time / Total` for percentage calculation (more accurate than `Part_time / Employed`)
-- English Language & Literature has highest part-time percentage at 29.7%
-
-## 📈 Future Analysis Opportunities
-
-### Unexplored Dataset Features
-1. **College_jobs vs Non_college_jobs:** Analyze credential underutilization
-2. **Geographic Analysis:** Regional variations in outcomes
-3. **Within-Major Gender Analysis:** Distinguish occupational segregation from discrimination
-4. **Temporal Trends:** Track changes over time if multi-year data available
-5. **Multivariate Regression:** Identify strongest predictors of success
-
-### Proposed Composite Metrics
-- **Career Value Score:** Weighted combination of earnings, unemployment, FT employment, and wage quality
-- **Risk-Adjusted ROI:** Expected value considering earnings variability
-- **Employment Quality Index:** Holistic measure of job outcomes
-
-## 👥 Author
-
-**Marcus**
-- Data Analyst
-- Focus: Educational outcomes and labor market analysis
-
-## 📄 License
-
-This project is available for educational and research purposes.
-
-## 🙏 Acknowledgments
-
-- Dataset source: Recent College Graduates employment survey
-- Analysis framework: Educational outcomes research methodologies
-- Visualization guidelines: Data presentation best practices
-
-## 📞 Contact & Contributions
-
-For questions, suggestions, or contributions to this analysis, please:
-- Open an issue in this repository
-- Submit a pull request with improvements
-- Contact the author for collaboration opportunities
-
----
-
-## 🎯 Quick Start
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/college-majors-analysis.git
-   ```
-
-2. **Review the dataset:**
-   - Open `Milestone_1_-_Marcus.xlsx`
-   - Explore individual analysis sheets for each question
-
-3. **Read the executive summary:**
-   - Open `Executive_Summary.docx` for comprehensive findings
-
-4. **Examine corrected analyses:**
-   - Review `Question_9_Corrected_Analysis.xlsx` for methodology corrections
-
-## 📚 Key Insights for Students
-
-### ✅ Consider These Factors When Choosing a Major:
-
-1. **Not just median earnings** - look at the full distribution (25th to 75th percentile)
-2. **Unemployment risk** - 60% of majors exceed national average
-3. **Gender pay patterns** - understand structural inequalities
-4. **Employment type** - full-time vs part-time likelihood
-5. **Low-wage job risk** - probability of underemployment
-6. **Category-level trends** - not all Engineering/Business majors are equal
-7. **Supply/demand dynamics** - popularity can depress wages
-
-### ⚠️ High-Risk Red Flags:
-
-- Female-dominated fields with systematically lower pay
-- Majors with unemployment > 9%
-- Fields with >30% part-time employment
-- Categories with >10,000 average low-wage jobs
-- Majors with extreme earnings variability without clear pathways
-
-### ✨ Promising Opportunities:
-
-- Physical Sciences (low unemployment, decent earnings)
-- Nursing (strong employment, competitive pay)
-- Specialized Engineering (high earnings, moderate risk)
-- Business fields with clear career tracks
-- Education (stable employment, though lower pay)
-
----
-
-**Last Updated:** February 2026
-**Dataset Period:** Recent College Graduates
-**Status:** ✅ Analysis Complete | 📊 Visualizations Ready | 📝 Documentation Published

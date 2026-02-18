@@ -2,7 +2,7 @@
 
 A comprehensive data analysis examining employment outcomes, earnings potential, and demographic patterns across 172 college majors representing 6.8 million recent college graduates.
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes recent college graduate data to identify critical patterns in:
 - Employment outcomes and unemployment rates
@@ -13,7 +13,7 @@ This project analyzes recent college graduate data to identify critical patterns
 
 The analysis addresses 12 key research questions to inform strategic recommendations for improving graduate outcomes.
 
-## 🔍 Key Findings
+## Key Findings
 
 ### Critical Statistics
 - **Total Majors Analyzed:** 172
@@ -24,13 +24,13 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 
 ### Major Discoveries
 
-#### 🚨 Gender Pay Gap Crisis
+#### Gender Pay Gap Crisis
 - **Female-dominated majors** (>70% women): Average earnings of **$33,162**
 - **Male-dominated majors** (<30% women): Average earnings of **$52,094**
 - **Pay Gap:** **$18,932** (57% higher for male-dominated fields)
 - **Correlation:** -0.6187 between percentage of women and median earnings
 
-#### 📈 Unemployment Challenges
+#### Unemployment Challenges
 - **59.9% of majors** (103 out of 172) have unemployment rates **above the 6% national average**
 - Highest unemployment categories:
   - Social Science: 9.57%
@@ -41,7 +41,7 @@ The analysis addresses 12 key research questions to inform strategic recommendat
   - Industrial Arts & Consumer Services: 4.81%
   - Education: 5.17%
 
-#### 💰 Earnings Extremes
+#### Earnings Extremes
 **Highest Earning Majors:**
 1. Petroleum Engineering: $110,000
 2. Mining and Mineral Engineering: $75,000
@@ -54,12 +54,12 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 
 **Earnings Gap:** 5:1 ratio between the highest and lowest paying majors
 
-#### 📊 Employment Quality Issues
+#### Employment Quality Issues
 - **Part-Time Work:** Biology graduates have 39.7% part-time employment (highest among top 10 majors)
 - **Low-Wage Jobs:** Communications & Journalism majors average 12,399 low-wage jobs (highest risk)
 - **Earnings Variability:** High-earning fields like Astronomy and Pharmacy show massive earnings spreads, indicating high-risk/high-reward outcomes
 
-## 📋 Research Questions Addressed
+## Research Questions Addressed
 
 1. **What are the 5 most common majors among recent graduates?**
    - Psychology (393,735), Business Management (329,927), Biology (280,709), General Business (234,590), Communications (213,996)
@@ -97,7 +97,7 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 12. **What are the strategic recommendations for improving outcomes?**
     - See Recommendations section below
 
-## 💡 Strategic Recommendations
+## Strategic Recommendations
 
 ### 1. Address Gender Pay Disparity
 - Implement targeted scholarships for women in high-earning fields
@@ -124,7 +124,7 @@ The analysis addresses 12 key research questions to inform strategic recommendat
 - Develop income-share agreements for high-risk majors
 - Show full earnings distributions, not just medians
 
-## 🛠️ Methodology
+## Methodology
 
 ### Data Source
 The dataset contains 172 college majors with the following variables:
@@ -145,7 +145,7 @@ The dataset contains 172 college majors with the following variables:
 - **Microsoft Excel:** Pivot tables, charts, and data visualization
 - **Data Visualization:** Bar charts, comparison tables, trend analysis
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 The project includes comprehensive visualizations for:
 1. Top 5 majors by enrollment (bar chart)
